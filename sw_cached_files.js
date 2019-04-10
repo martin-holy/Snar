@@ -1,5 +1,5 @@
 const appName = 'Snar',
-      appVersion = 'v2019.04.10',
+      appVersion = 'v2019.04.10_rev1',
       cacheName = `${appName}_${appVersion}`;
 
 // Call Install Event
