@@ -1,0 +1,13 @@
+{
+  "name": "Snář",
+  "short_name": "Snar",
+  "theme_color": "#132656",
+  "background_color": "#132656",
+  "display": "standalone",
+  "start_url": "index.html",
+  "icons": [
+    { "src": "img/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"}
+  ]
+}
