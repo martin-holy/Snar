@@ -38,4 +38,11 @@ window.addEventListener('load', async () => {
     .register('/Snar/sw_cached_files.js')
     .then(reg => console.log('Service Worker: Registered'))
     .catch(err => console.log(`Service Worker: Error: ${err}`));
+
+  document.getElementById('searchField').addEventListener('keyup', (e) => {
+    if (e.keyCode === 13) {
+      e.preventDefault();
+      document.getElementById('searchButton').click();
+    }
+  });
 });
